@@ -19,11 +19,15 @@ header nav li{
     padding:10px;
     background-color: rgb(245, 180, 180);
     font-size: 15px;
-    border-bottom: : 2px solid #2121121;
+    border-bottom: 2px solid rgb(19, 151, 111);
+}
+
+header nav li:last-child{
+    border-bottom: none;
 }
 
 header nav a{
     text-decoration: none;
-    color: #212121;
+    color: rgb(19, 151, 111);
     text-transform: uppercase;
 }
