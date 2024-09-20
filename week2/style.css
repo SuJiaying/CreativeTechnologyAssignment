@@ -13,3 +13,14 @@ header nav ul{
     margin:0;
     padding: 0;
 }
+
+header nav li{
+    padding:10px;
+    background-color: rgb(245, 180, 180);
+}
+
+header nav a{
+    text-decoration: none;
+    color: #212121;
+    text-transform: uppercase;
+}
