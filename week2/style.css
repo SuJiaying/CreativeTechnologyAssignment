@@ -13,6 +13,8 @@ header nav ul{
     list-style: none;
     margin:0;
     padding: 0;
+    display :flex;
+    flex-direction: column;
 }
 
 header nav li{
@@ -30,4 +32,14 @@ header nav a{
     text-decoration: none;
     color: rgb(19, 151, 111);
     text-transform: uppercase;
+}
+
+/* TABLET VIEW */
+@media(min-width: 768px){
+    header nav ul{
+        flex-direction: row;
+    }
+    header nav li{
+        border:none;
+    }
 }
