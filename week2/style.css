@@ -90,6 +90,7 @@ section {
     header nav li{
         border: none;
         font-family:fantasy;
+        font-size: 30px
     }
     section {
         display: flex;
