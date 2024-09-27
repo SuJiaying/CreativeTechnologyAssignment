@@ -138,6 +138,7 @@ section {
     }
     header nav li{
         color: #453535;
+        font-size: 50px;
         font-family:'Times New Roman', Times, serif
     }
     main{
