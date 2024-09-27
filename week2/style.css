@@ -94,7 +94,7 @@ section {
     section {
         display: flex;
         justify-content: space-around;
-        flex-direction: row;
+        flex-direction: column;
     }
     section div {
         width: 45%;
@@ -107,12 +107,12 @@ section {
     }
     #home{
         display:flex;
-        flex-direction: column;
         background-color: rgb(255, 255, 222);
     }
-    #home img {
-        order: -1; 
+    #home p class{
+        order :+2;
     }
+    
     #about{
         background-color: rgb(221, 223, 255);
     }
@@ -151,7 +151,7 @@ section {
         text-align: left;
     }
     img {
-        display:block;
+        display:flex;
         width: 100%;
         margin: 0 auto 20px auto;
     }
@@ -163,8 +163,12 @@ section {
         color: #124133; 
     }
     #home{
+        display:flex;
         flex-direction: column;
         background-color: rgb(211, 219, 255);
+    }
+    #home img {
+        order: -1; 
     }
 
     #about{
