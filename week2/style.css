@@ -106,7 +106,12 @@ section {
         color: #1f7e62; 
     }
     #home{
+        display:flex;
+        flex-direction: column;
         background-color: rgb(255, 255, 222);
+    }
+    #home img {
+        order: -1; 
     }
     #about{
         background-color: rgb(221, 223, 255);
@@ -146,8 +151,8 @@ section {
         text-align: left;
     }
     img {
+        display:block;
         width: 100%;
-        display: block;
         margin: 0 auto 20px auto;
     }
     h1 {
@@ -158,8 +163,10 @@ section {
         color: #124133; 
     }
     #home{
+        flex-direction: column;
         background-color: rgb(211, 219, 255);
     }
+
     #about{
         background-color: rgb(167, 240, 255);
     }
