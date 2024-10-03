@@ -6,16 +6,50 @@ body{
     
 }
 
-h1 {
+header nav{
+        display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    background-color:rgb(255, 212, 231);
+    
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    
+}
+
+header nav li{
+    padding: 12.5px;
+    font-size: 20px;
+    background-color:rgb(255, 212, 231);
+    padding: 12.5px;
+    
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(24, 61, 147);
+}
+
+.abc {
     color: rgb(30, 98, 78); 
     text-align: center;
+    font-size: 25px;
     background-color:rgb(255, 212, 231);
     padding: 10px;
 }
 
 
+
 img{
-    max-width: 70%;
+    max-width: 80%;
     display:flex;
     padding :20px
     
@@ -46,4 +80,51 @@ img{
 #largeImage {
     width: 500px;
     height: auto;
+}
+
+section {
+    padding: 20px 10px;
+}
+
+#home{
+    background-color: rgb(246, 228, 255);
+}
+
+#about{
+    background-color: rgb(222, 253, 255);
+}
+
+#contact{
+    background-color: rgb(255, 248, 188);
+}
+
+#grownup {
+    display:flex;
+    width: 100%;
+    margin: 0 auto 0px auto; 
+    
+}
+
+h1 {
+    color: #1f7d74; 
+}
+
+h2 {
+    color: #1f7d74;
+}
+
+#home {
+    color: rgb(24, 61, 147);
+
+}
+
+#about {
+    color: rgb(24, 61, 147);
+
+}
+
+#contact {
+    text-decoration: none;
+    color: rgb(24, 61, 147);
+
 }
