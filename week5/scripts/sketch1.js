@@ -1,15 +1,17 @@
+let sketch1= function(p){
 let numCircles = 10
 let radius
 let strWeight = 20
 let timerID
 let bkgndClr
 
-function setup() {
-  createCanvas(600, 600);
-  colorMode(HSB, TWO_PI, 1,1)
-  radius = width*0.1
+p.setup = function() {
+  p.createCanvas(600, 600);
+  thisC.parent('sketch-holder1')
+  p.colorMode(p.HSB, p.TWO_PI, 1,1)
+  radius = p.width*0.1
   strokeCap(SQUARE)
-  bkgndClr = color(0)
+  bkgndClr = p.color(0)
   timerID = setInterval(()=>{
     bkgndClr = color(random(TWO_PI),random(1),random(1))
   },2000)
@@ -37,3 +39,10 @@ function draw() {
   
  
 }
+
+function windowReized(){
+  resizeCanvas(windowWidth, windowHeight);
+}
+}
+
+new p5(sketch1)
