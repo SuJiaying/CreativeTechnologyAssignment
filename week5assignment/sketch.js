@@ -14,7 +14,8 @@ let offsetX = 10
 let offsetY = 100
 
 function setup() {
-  createCanvas(600, 600)
+  let canvas =createCanvas(600, 600)
+  canvas.parent('sketchHolder');
   angleMode(DEGREES)
   
   for(let i = 0; i < num; i ++){

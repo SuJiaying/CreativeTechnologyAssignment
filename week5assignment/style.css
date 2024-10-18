@@ -26,7 +26,7 @@ main {
 .step {
     width: 25%;
     height: auto;
-    margin-bottom: 15px;
+    margin: 20px;
     
     text-align: center;
     box-sizing: border-box; 
@@ -35,13 +35,13 @@ main {
 }
 
 .step img {
-    width: 225px;
+    width: 250px;
     height: auto;
 }
 
 .step p {
-    width:290px;
-    margin-top: 5px;
+    width:300px;
+    margin: 5px;
     font-size: 16px;
     color: #333;
     
@@ -49,7 +49,7 @@ main {
     text-align:left;
 }
 
-.canvas {
+#sketchHolder {
     display: flex;
     justify-content: center;
     align-items: center;
