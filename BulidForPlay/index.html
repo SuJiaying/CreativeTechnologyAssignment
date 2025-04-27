@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build for Play in Unity</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="sketch.js"></script>
+</head>
+<body>
+
+    
+    <main>
+        <div class="step">
+            <img src="images/doodler.png" alt="Step 1" alt="Step 1" class="small-img">
+            <p>I want to base my game on the mechanics of Doodle Jump.</p>
+        </div>
+
+        <div class="step">
+            <img src="images/reference.png" alt="Step 1">
+            <p>The theme of this game is cherry tarts. I imagine the visual style to be simple and cute, using flat illustrations. Players will control a cherry jumping on top of the tart, as if the filling inside is trying to come alive and escape.</p>
+        </div>
+
+        <div class="step">
+            <img src="images/draft.png" alt="Step 1">
+            <p>I first sketched out the designs by hand, then created the final versions in Adobe Illustrator. This included a checkered fabric background, the player-controlled cherry, and the tart or pie platforms for jumping.</p>
+        </div>
+
+        <div class="step">
+            <img src="images/characterAndPlatform.png" alt="Step 1">  
+            <p>I experimented with several versions of the art with small differences in details to get better results. For example, the original checkered fabric background was pink, but after importing it into Unity, I realized it didn’t contrast enough with the cherry, so I changed it to blue.</p>
+        </div>
+
+        <div class="step2">
+            <video controls>
+                <source src="videos/up.mp4" type="video/mp4">
+            </video>  
+            <p>The cherry can keep jumping upward by bouncing between the tart crusts. As the cherry moves up, the camera follows along.</p>
+        </div>
+
+        <div class="step2">
+            <video controls>
+                <source src="videos/back.mp4" type="video/mp4">
+            </video>  
+            <p>If the cherry leaves the screen from one side horizontally, it reappears from the other side.</p>
+        </div>
+
+        <div class="step2">
+            <video controls>
+                <source src="videos/break.mp4" type="video/mp4">
+            </video> 
+            <p>Tarts that are light-colored with small cracks in the middle will break and disappear after the cherry lands on them. If the cherry misses all the tarts and falls, the game ends.</p>
+        </div>
+
+        <div class="step">
+            <img src="images/ESP.PNG" alt="Step 1">  
+        </div>
+        
+        <div class="step">
+            <img src="images/arduinoCode.png" alt="Step 1">  
+            <p>I also tried connecting Unity with an ESP32, hoping to use buttons linked to the ESP32 to control the cherry’s movement to the left or right.</p>
+        </div>
+
+        <div class="step">
+            <img src="images/errors.png" alt="Step 1">  
+            <p>However, I ran into problems when Unity tried to receive signals from the serial port. It kept throwing errors and automatically switched to Safe Mode.</p>
+        </div>
+
+        <div class="step">
+            <img src="images/set.png" alt="Step 1">  
+            <p>I tried different solutions I found online, such as adjusting the Player Settings, but none of them worked. In the end, I had to delete the script handling the serial signals to get the game back to normal.</p>
+        </div>
+
+</body>
+</html>
